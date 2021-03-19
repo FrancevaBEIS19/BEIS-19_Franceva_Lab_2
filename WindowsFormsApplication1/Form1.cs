@@ -23,6 +23,7 @@ namespace WindowsFormsApplication1
 
         private void button1_Click(object sender, EventArgs e)
         {
+            textBox3.Text = "";
             double a = Convert.ToDouble(textBox1.Text);
             double b = Convert.ToDouble(textBox2.Text);
             textBox3.Text = Convert.ToString(a+b);
@@ -30,6 +31,7 @@ namespace WindowsFormsApplication1
 
         private void button2_Click(object sender, EventArgs e)
         {
+            textBox3.Text = "";
             double a = Convert.ToDouble(textBox1.Text);
             double b = Convert.ToDouble(textBox2.Text);
             textBox3.Text = Convert.ToString(a - b);
@@ -37,6 +39,7 @@ namespace WindowsFormsApplication1
 
         private void button3_Click(object sender, EventArgs e)
         {
+            textBox3.Text = "";
             double a = Convert.ToDouble(textBox1.Text);
             double b = Convert.ToDouble(textBox2.Text);
             textBox3.Text = Convert.ToString(a * b);
@@ -44,6 +47,7 @@ namespace WindowsFormsApplication1
 
         private void button4_Click(object sender, EventArgs e)
         {
+            textBox3.Text = "";
             double a = Convert.ToDouble(textBox1.Text);
             double b = Convert.ToDouble(textBox2.Text);
             textBox3.Text = Convert.ToString(a / b);
